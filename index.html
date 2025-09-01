@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Keyboard Shortcuts — @finn.mai.design</title>
+  <meta name="description" content="Premiere Pro, DaVinci Resolve, and After Effects keyboard shortcuts by Finn" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23222'/><text x='50' y='58' text-anchor='middle' font-size='52' fill='%23fff'>⌨️</text></svg>">
+  <!-- Tailwind Play CDN (no build step) -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { theme: { extend: { colors: { zinc: tailwind.colors.zinc } } } };
+  </script>
+  <style>
+    .glow::before{content:'';position:absolute;inset:-1px;border-radius:1.25rem;pointer-events:none;box-shadow:0 0 0 1px rgba(63,63,70,.6)}
+  </style>
+</head>
+<body class="min-h-screen bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 text-white selection:bg-fuchsia-500/30">
+  <!-- Top Nav -->
+  <nav class="sticky top-0 z-40 backdrop-blur supports-[backdrop-filter]:bg-zinc-900/60 bg-zinc-900/40 border-b border-zinc-800">
+    <div class="mx-auto max-w-6xl px-4 py-3 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <span class="font-semibold tracking-tight text-white">@finn.mai.design</span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="relative overflow-hidden">
+    <div class="absolute inset-0 -z-10">
+      <div class="pointer-events-none absolute -top-48 left-1/2 h-[32rem] w-[32rem] -translate-x-1/2 rounded-full bg-fuchsia-500/20 blur-3xl"></div>
+      <div class="pointer-events-none absolute -bottom-48 right-1/3 h-[28rem] w-[28rem] rounded-full bg-cyan-400/10 blur-3xl"></div>
+    </div>
+    <div class="mx-auto max-w-6xl px-4 py-16 md:py-20">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold leading-tight tracking-tight text-center text-white max-w-5xl mx-auto">
+        Keyboard Shortcuts
+      </h1>
+    </div>
+  </header>
+
+  <!-- Downloads -->
+  <section class="mx-auto max-w-6xl px-4 pb-16">
+    <div class="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Premiere Pro -->
+      <article class="relative glow rounded-2xl bg-zinc-900/70 border border-zinc-700 shadow-2xl shadow-black/40 p-6 transition duration-300 hover:scale-[1.02] hover:shadow-fuchsia-500/20">
+        <div class="flex items-center gap-2 text-xl sm:text-2xl md:text-3xl font-semibold">
+          <!-- Pr icon -->
+          <svg class="w-7 h-7" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect rx="8" width="48" height="48" fill="#A855F7"/><text x="12" y="31" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="white">Pr</text></svg>
+          <span>Premiere Pro</span>
+        </div>
+        <div class="grid grid-cols-1 gap-2 sm:gap-3 sm:grid-cols-2 mt-6">
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-fuchsia-600/80 focus:ring-fuchsia-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-Premiere-Pro-Shortcuts-mac.kys">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">MacOS</span>
+          </a>
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-fuchsia-600/80 focus:ring-fuchsia-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-Premiere-Pro-Shortcuts-win.kys">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">Windows</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- DaVinci Resolve -->
+      <article class="relative glow rounded-2xl bg-zinc-900/70 border border-zinc-700 shadow-2xl shadow-black/40 p-6 transition duration-300 hover:scale-[1.02] hover:shadow-cyan-500/20">
+        <div class="flex items-center gap-2 text-xl sm:text-2xl md:text-3xl font-semibold">
+          <!-- Resolve icon -->
+          <svg class="w-7 h-7" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect rx="8" width="48" height="48" fill="#22D3EE"/><circle cx="24" cy="18" r="6" fill="#083344"/><circle cx="16" cy="30" r="6" fill="#083344"/><circle cx="32" cy="30" r="6" fill="#083344"/></svg>
+          <span>DaVinci Resolve</span>
+        </div>
+        <div class="grid grid-cols-1 gap-2 sm:gap-3 sm:grid-cols-2 mt-6">
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-cyan-600/80 focus:ring-cyan-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-DaVinci-Resolve-Shortcuts-mac.keyboard.shortcuts">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">MacOS</span>
+          </a>
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-cyan-600/80 focus:ring-cyan-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-DaVinci-Resolve-Shortcuts-win.keyboard.shortcuts">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">Windows</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- After Effects -->
+      <article class="relative glow rounded-2xl bg-zinc-900/70 border border-zinc-700 shadow-2xl shadow-black/40 p-6 transition duration-300 hover:scale-[1.02] hover:shadow-indigo-500/20">
+        <div class="flex items-center gap-2 text-xl sm:text-2xl md:text-3xl font-semibold">
+          <!-- Ae icon -->
+          <svg class="w-7 h-7" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><rect rx="8" width="48" height="48" fill="#6366F1"/><text x="10" y="31" font-family="Arial, Helvetica, sans-serif" font-size="18" font-weight="700" fill="white">Ae</text></svg>
+          <span>After Effects</span>
+        </div>
+        <div class="grid grid-cols-1 gap-2 sm:gap-3 sm:grid-cols-2 mt-6">
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-indigo-600/80 focus:ring-indigo-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-After-Effects-Shortcuts-mac.kys">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">MacOS</span>
+          </a>
+          <a class="group w-full h-11 rounded-2xl bg-zinc-800 flex items-center justify-center gap-2 text-sm sm:text-base transition-colors duration-300 focus:outline-none focus:ring-2 hover:bg-indigo-600/80 focus:ring-indigo-400/40 px-4 min-w-0 max-w-full"
+             download href="assets/Finn-After-Effects-Shortcuts-win.kys">
+            <svg class="w-4 h-4 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            <span class="truncate">Windows</span>
+          </a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-zinc-800/80 bg-zinc-900/40">
+    <div class="mx-auto max-w-6xl px-4 py-8 flex items-center justify-center text-sm text-zinc-400">
+      <p>© <span id="year"></span> @finn.mai.design</p>
+    </div>
+  </footer>
+
+  <script>document.getElementById('year').textContent = new Date().getFullYear()</script>
+</body>
+</html>
